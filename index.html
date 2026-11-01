@@ -1,0 +1,413 @@
+﻿<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>محمد قنديل — مطوّر Full Stack .NET</title>
+  <meta name="description" content="بورتفوليو محمد قنديل: مطوّر Full Stack .NET بخبرة في بناء أنظمة ERP وتطبيقات ويب باستخدام C# وASP.NET Core وSQL Server.">
+  <meta name="theme-color" content="#F7F3EC">
+  <script>
+    try {
+      if (localStorage.getItem("lang") === "en") {
+        document.documentElement.lang = "en";
+        document.documentElement.dir = "ltr";
+      }
+    } catch (e) {}
+  </script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@300;400;500;600;700&family=Inter:wght@300;400;500;600;700&family=Space+Grotesk:wght@500;600;700&family=Tajawal:wght@400;500;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main" data-en="Skip to content">تجاوز إلى المحتوى</a>
+  <div class="progress" id="progress" aria-hidden="true"></div>
+
+  <header class="site-header" id="header">
+    <div class="container header-inner">
+      <a class="brand" href="#top" aria-label="محمد قنديل — الصفحة الرئيسية" data-en-aria="Mohamed Kandil — Home">
+        <span class="brand-mark" aria-hidden="true" data-en="M">م</span>
+        <span class="brand-text" data-en="Mohamed Kandil">محمد قنديل</span>
+      </a>
+
+      <nav class="nav" id="nav" aria-label="التنقل الرئيسي" data-en-aria="Main navigation">
+        <a href="#work" data-en="Work">أعمالي</a>
+        <a href="#about" data-en="About">عنّي</a>
+        <a href="#services" data-en="Services">الخدمات</a>
+        <a href="#education" data-en="Education">التعليم</a>
+        <a href="#contact" data-en="Contact">تواصل</a>
+      </nav>
+
+      <div class="header-actions">
+        <button class="lang-btn" id="langBtn" type="button" aria-label="EN — Switch to English" lang="en">EN</button>
+
+        <button class="icon-btn" id="themeToggle" type="button" aria-label="تبديل المظهر" data-en-aria="Toggle theme" aria-pressed="false">
+          <svg class="icon-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8Z"/>
+          </svg>
+          <svg class="icon-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <circle cx="12" cy="12" r="4"/>
+            <path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/>
+          </svg>
+        </button>
+
+        <a class="btn btn--primary btn--small" href="#contact" data-en="Start a project">ابدأ مشروعًا</a>
+
+        <button class="icon-btn menu-btn" id="menuBtn" type="button" aria-label="فتح القائمة" aria-expanded="false" aria-controls="nav">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" aria-hidden="true">
+            <path d="M4 7h16M4 12h16M4 17h16"/>
+          </svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main id="main">
+    <!-- ============ HERO ============ -->
+    <section class="hero container" id="top">
+      <div class="hero-copy">
+        <p class="eyebrow reveal"><span class="dot" aria-hidden="true"></span> <span data-en="Full Stack .NET Developer · Open to work">Full Stack .NET Developer · متاح للعمل</span></p>
+        <h1 class="reveal" data-en="I build <span class='hl'>reliable</span> backends and fast interfaces.">
+          أبني أنظمة خلفية <span class="hl">قوية</span> وواجهات سريعة.
+        </h1>
+        <p class="lede reveal" data-en="Full Stack .NET developer with 4+ years building ERP systems and web applications. I work with C#, ASP.NET Core and SQL Server, with a focus on clean architecture and user experience.">
+          مطوّر Full Stack .NET بخبرة تتجاوز 4 سنوات في بناء أنظمة ERP وتطبيقات ويب.
+          أعمل بـ C# وASP.NET Core وSQL Server، مع اهتمام بالمعمارية النظيفة وتجربة المستخدم.
+        </p>
+        <div class="hero-actions reveal">
+          <a class="btn btn--primary" href="#work">
+            <span data-en="View my work">شاهد أعمالي</span>
+            <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <path d="M19 12H5M11 18l-6-6 6-6"/>
+            </svg>
+          </a>
+          <a class="btn btn--ghost" href="cv.pdf" download data-en="Download CV">تحميل السيرة الذاتية</a>
+        </div>
+
+        <div class="stats reveal">
+          <div class="stat"><strong>4+</strong><span data-en="Years of experience">سنوات خبرة</span></div>
+          <div class="stat"><strong>3</strong><span data-en="Companies">شركات</span></div>
+          <div class="stat"><strong>10+</strong><span data-en="Technologies">تقنيات</span></div>
+        </div>
+      </div>
+
+      <div class="hero-art reveal" aria-hidden="true">
+        <div class="art-ring"></div>
+        <div class="art-card">
+          <span class="monogram" data-en="M">م</span>
+          <div class="art-lines"><span></span><span></span><span></span></div>
+        </div>
+        <div class="art-chip art-chip--top"><span class="chip-dot"></span> <span data-en="Open to work">متاح للعمل</span></div>
+        <div class="art-chip art-chip--bottom">C# · .NET</div>
+      </div>
+    </section>
+
+    <!-- ============ MARQUEE ============ -->
+    <div class="marquee" aria-hidden="true">
+      <div class="marquee-track">
+        <div class="mq-group">
+          <span class="mq-item">C#</span>
+          <span class="mq-item">ASP.NET Core</span>
+          <span class="mq-item">ASP.NET MVC</span>
+          <span class="mq-item">SQL Server</span>
+          <span class="mq-item">Entity Framework</span>
+          <span class="mq-item">LINQ</span>
+          <span class="mq-item">Angular</span>
+          <span class="mq-item">TypeScript</span>
+          <span class="mq-item">Bootstrap</span>
+          <span class="mq-item">jQuery</span>
+          <span class="mq-item">Design Patterns</span>
+          <span class="mq-item">RDLC</span>
+        </div>
+        <div class="mq-group">
+          <span class="mq-item">C#</span>
+          <span class="mq-item">ASP.NET Core</span>
+          <span class="mq-item">ASP.NET MVC</span>
+          <span class="mq-item">SQL Server</span>
+          <span class="mq-item">Entity Framework</span>
+          <span class="mq-item">LINQ</span>
+          <span class="mq-item">Angular</span>
+          <span class="mq-item">TypeScript</span>
+          <span class="mq-item">Bootstrap</span>
+          <span class="mq-item">jQuery</span>
+          <span class="mq-item">Design Patterns</span>
+          <span class="mq-item">RDLC</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- ============ ABOUT ============ -->
+    <section class="section" id="about">
+      <div class="container about-grid">
+        <div class="section-head reveal">
+          <p class="kicker" data-en="01 — About">01 — نبذة</p>
+          <h2 data-en="Clean code,<br>architecture that lasts.">كود نظيف،<br>ومعمارية تتحمّل.</h2>
+        </div>
+        <div class="about-body reveal">
+          <p data-en="I'm a Full Stack .NET developer based in Cairo. I started in 2018 and have worked on real-estate ERP systems and web applications for clients in Egypt and Kuwait — from requirements analysis through delivery and support.">
+            مطوّر Full Stack .NET من القاهرة. بدأت مسيرتي في 2018، وعملت على أنظمة ERP عقارية
+            وتطبيقات ويب لعملاء في مصر والكويت — من تحليل المتطلبات وحتى التسليم والدعم.
+          </p>
+          <p data-en="I care about maintainable code: SOLID principles, Repository and Unit of Work patterns, and clear N-Tier layers. On the front end, I focus on making the experience fast and clear — not just an API that works.">
+            أهتم بالكود القابل للصيانة: مبادئ SOLID، ونماذج Repository وUnit of Work،
+            وطبقات واضحة بنمط N-Tier. وفي الواجهة أركّز إن التجربة تكون سريعة وواضحة،
+            مش بس إن الـ API شغالة.
+          </p>
+          <div class="tags" aria-label="المهارات" data-en-aria="Skills">
+            <span>C#</span>
+            <span>ASP.NET Core</span>
+            <span>ASP.NET MVC</span>
+            <span>SQL Server</span>
+            <span>Entity Framework</span>
+            <span>LINQ</span>
+            <span>Angular</span>
+            <span>TypeScript</span>
+            <span>JavaScript</span>
+            <span>Bootstrap</span>
+            <span>jQuery</span>
+            <span>RDLC</span>
+            <span data-en="Design Patterns">أنماط التصميم</span>
+            <span>SOLID</span>
+            <span>N-Tier</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ WORK ============ -->
+    <section class="section section--soft" id="work">
+      <div class="container">
+        <div class="section-head section-head--row reveal">
+          <div>
+            <p class="kicker" data-en="02 — Experience">02 — خبرات ومشاريع</p>
+            <h2 data-en="Work I've shipped.">أعمال اشتغلت عليها.</h2>
+          </div>
+          <a class="section-link" href="#contact" data-en="Get in touch">تواصل معي</a>
+        </div>
+
+        <div class="projects-grid">
+          <article class="project reveal">
+            <a class="project-link" href="https://afthath.com.sa/" target="_blank" rel="noopener">
+              <div class="thumb thumb--img">
+                <span class="thumb-chip">ERP SaaS</span>
+                <img src="assets/projects/afthath.jpg" alt="واجهة موقع أفذاذ ERP" data-en-alt="Afthath ERP website interface" width="1280" height="800" loading="lazy">
+              </div>
+              <div class="project-meta"><span data-en="Live product">منتج مباشر</span><span>ERP SaaS</span></div>
+              <h3 data-en="Afthath ERP Platform">منصة أفذاذ ERP</h3>
+              <p data-en="An Arabic-first ERP platform for accounting, inventory, sales and point of sale — with a fully Arabic interface and a simplified experience.">
+                منصة ERP عربية لإدارة المحاسبة والمخزون والمبيعات ونقاط البيع،
+                بواجهة عربية كاملة وتجربة استخدام مبسّطة.
+              </p>
+              <span class="arrow" aria-hidden="true">
+                <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M19 12H5M11 18l-6-6 6-6"/></svg>
+              </span>
+            </a>
+          </article>
+
+          <article class="project reveal">
+            <a class="project-link" href="https://ittihad-al-mullak.pages.dev/" target="_blank" rel="noopener">
+              <div class="thumb thumb--img">
+                <span class="thumb-chip">PropTech</span>
+                <img src="assets/projects/ittihad.jpg" alt="واجهة موقع اتحاد الملاك" data-en-alt="Ittihad Al-Mullak website interface" width="1280" height="800" loading="lazy">
+              </div>
+              <div class="project-meta"><span data-en="Live product">منتج مباشر</span><span>PropTech</span></div>
+              <h3 data-en="Ittihad Al-Mullak — Building Management">اتحاد الملاك — إدارة العمارات</h3>
+              <p data-en="A platform for managing residential buildings and compounds: fee collection, maintenance tracking, and resident notifications from one dashboard.">
+                منصة لإدارة العمارات والمجمّعات السكنية: تحصيل المصاريف، متابعة الصيانة،
+                وتنبيهات للساكنين من لوحة تحكم واحدة.
+              </p>
+              <span class="arrow" aria-hidden="true">
+                <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M19 12H5M11 18l-6-6 6-6"/></svg>
+              </span>
+            </a>
+          </article>
+
+          <article class="project reveal">
+            <a class="project-link" href="#contact">
+              <div class="thumb thumb--img">
+                <span class="thumb-chip">ERP</span>
+                <img src="assets/projects/erp.jpg" alt="صورة توضيحية: مبنى سكني حديث" data-en-alt="Illustrative photo: a modern residential building" width="1280" height="800" loading="lazy">
+              </div>
+              <div class="project-meta"><span>2020–2022</span><span data-en="Full Stack">Full Stack</span></div>
+              <h3 data-en="Real Estate ERP System">نظام ERP لإدارة العقارات</h3>
+              <p data-en="An integrated system for units, contracts, invoices and reporting. I built the backend, APIs and database, MVC screens, and RDLC reports.">
+                نظام متكامل لإدارة الوحدات والعقود والفواتير والتقارير. طوّرت الـ Backend
+                والـ APIs وقواعد البيانات، وواجهات MVC، وتقارير RDLC.
+              </p>
+              <span class="arrow" aria-hidden="true">
+                <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M19 12H5M11 18l-6-6 6-6"/></svg>
+              </span>
+            </a>
+          </article>
+
+          <article class="project reveal">
+            <a class="project-link" href="#contact">
+              <div class="thumb thumb--img">
+                <span class="thumb-chip">IoT</span>
+                <img src="assets/projects/iot.jpg" alt="صورة توضيحية: زراعة مائية داخل صوبة" data-en-alt="Illustrative photo: hydroponic growing rows inside a greenhouse" width="1280" height="800" loading="lazy">
+              </div>
+              <div class="project-meta"><span>2022</span><span data-en="Graduation project">مشروع تخرج</span></div>
+              <h3 data-en="Smart Farming IoT System">نظام زراعة ذكي بالـ IoT</h3>
+              <p data-en="A system that reads sensor data and controls irrigation remotely through a web server. Graduation project with an Excellent grade; I led the team.">
+                نظام يقرأ بيانات الحساسات ويتحكم في الري عن بُعد عبر سيرفر ويب.
+                مشروع تخرج بامتياز، وقدت الفريق خلال تنفيذه.
+              </p>
+              <span class="arrow" aria-hidden="true">
+                <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M19 12H5M11 18l-6-6 6-6"/></svg>
+              </span>
+            </a>
+          </article>
+
+          <article class="project reveal">
+            <a class="project-link" href="#contact">
+              <div class="thumb thumb--img">
+                <span class="thumb-chip">Web</span>
+                <img src="assets/projects/web.jpg" alt="صورة توضيحية: كود برمجي على شاشة حاسوب محمول" data-en-alt="Illustrative photo: source code on a laptop screen" width="1280" height="800" loading="lazy">
+              </div>
+              <div class="project-meta"><span>2018–2019</span><span data-en="Kuwait">الكويت</span></div>
+              <h3 data-en="Web Application Development">تطوير وصيانة تطبيقات ويب</h3>
+              <p data-en="Updated and extended existing web applications for clients in Kuwait based on end-user feedback, while keeping systems stable.">
+                تعديل وتطوير تطبيقات ويب قائمة لعملاء في الكويت بناءً على ملاحظات المستخدمين،
+                مع الحفاظ على استقرار الأنظمة.
+              </p>
+              <span class="arrow" aria-hidden="true">
+                <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M19 12H5M11 18l-6-6 6-6"/></svg>
+              </span>
+            </a>
+          </article>
+
+          <article class="project reveal">
+            <a class="project-link" href="#contact">
+              <div class="thumb thumb--img">
+                <span class="thumb-chip">UX / UI</span>
+                <img src="assets/projects/uxui.jpg" alt="صورة توضيحية: رسم تخطيطي لواجهة على ورق" data-en-alt="Illustrative photo: hand-drawn interface wireframe on paper" width="1280" height="800" loading="lazy">
+              </div>
+              <div class="project-meta"><span>2019–2020</span><span data-en="Analysis">تحليل</span></div>
+              <h3 data-en="UX/UI Analysis">تحليل وتصميم تجربة المستخدم</h3>
+              <p data-en="Analyzed interfaces and user flows, then translated them into implementation-ready requirements and usable front-end screens.">
+                تحليل واجهات وتجربة مستخدم، وترجمتها إلى متطلبات تنفيذية وواجهات أمامية
+                قابلة للاستخدام.
+              </p>
+              <span class="arrow" aria-hidden="true">
+                <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M19 12H5M11 18l-6-6 6-6"/></svg>
+              </span>
+            </a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ SERVICES ============ -->
+    <section class="section" id="services">
+      <div class="container">
+        <div class="section-head reveal">
+          <p class="kicker" data-en="03 — Services">03 — الخدمات</p>
+          <h2 data-en="What I can do.">إيه اللي أقدر أعمله؟</h2>
+        </div>
+
+        <div class="services-grid">
+          <article class="service reveal">
+            <span class="service-num">01</span>
+            <h3 data-en="Backend Development">تطوير Backend</h3>
+            <p data-en="APIs and services in C# and ASP.NET Core, with N-Tier architecture, SQL Server databases, and clear, testable code.">
+              APIs وخدمات بـ C# وASP.NET Core، بمعمارية N-Tier وقواعد بيانات SQL Server،
+              مع كود واضح وقابل للاختبار.
+            </p>
+          </article>
+
+          <article class="service reveal">
+            <span class="service-num">02</span>
+            <h3 data-en="Frontend Development">تطوير Frontend</h3>
+            <p data-en="Interfaces with Angular, TypeScript and Bootstrap — responsive across screens and fast to load.">
+              واجهات بـ Angular وTypeScript وBootstrap، متجاوبة مع كل الشاشات وسريعة في التحميل.
+            </p>
+          </article>
+
+          <article class="service reveal">
+            <span class="service-num">03</span>
+            <h3 data-en="Databases &amp; Reporting">قواعد بيانات وتقارير</h3>
+            <p data-en="Database design, LINQ and Entity Framework queries, plus RDLC and Stimulsoft reports.">
+              تصميم قواعد بيانات، واستعلامات LINQ وEntity Framework، وتقارير RDLC وStimulsoft.
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ EDUCATION ============ -->
+    <section class="section section--soft" id="education">
+      <div class="container">
+        <div class="section-head reveal">
+          <p class="kicker" data-en="04 — Education &amp; Courses">04 — التعليم والدورات</p>
+          <h2 data-en="Academic background.">الأساس الأكاديمي.</h2>
+        </div>
+
+        <div class="edu-grid">
+          <article class="edu-card reveal">
+            <span class="edu-year">2019–2022</span>
+            <h3 data-en="Computer Science (Premaster)">علوم الحاسب — تمهيدي ماجستير</h3>
+            <p class="edu-place" data-en="Cairo University — Faculty of Graduate Studies for Statistical Research">جامعة القاهرة — كلية الدراسات العليا للبحوث الإحصائية</p>
+            <span class="edu-grade" data-en="Grade: Very good">التقدير: جيد جدًا</span>
+          </article>
+
+          <article class="edu-card reveal">
+            <span class="edu-year">2017–2019</span>
+            <h3 data-en="Computer Science (Graduate Diploma)">علوم الحاسب — دبلوم دراسات عليا</h3>
+            <p class="edu-place" data-en="Cairo University — Faculty of Graduate Studies for Statistical Research">جامعة القاهرة — كلية الدراسات العليا للبحوث الإحصائية</p>
+            <span class="edu-grade" data-en="Grade: Very good">التقدير: جيد جدًا</span>
+          </article>
+
+          <article class="edu-card reveal">
+            <span class="edu-year">2012–2015</span>
+            <h3 data-en="BSc — Management Information Systems">بكالوريوس — نظم معلومات إدارية</h3>
+            <p class="edu-place" data-en="Helwan University — Faculty of Commerce">جامعة حلوان — كلية التجارة</p>
+            <span class="edu-grade" data-en="Grade: Good">التقدير: جيد</span>
+          </article>
+        </div>
+
+        <div class="courses reveal">
+          <span class="courses-label" data-en="Courses:">دورات:</span>
+          <span class="course">Full Stack — Senior Step Academy</span>
+          <span class="course" data-en="Frontend — Institute of System and Information">Frontend — معهد نظم المعلومات</span>
+          <span class="course" data-en="Backend — 1Million Arab Coders">Backend — مبادرة مليون مبرمج عربي</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ CONTACT ============ -->
+    <section class="section" id="contact">
+      <div class="container">
+        <div class="contact-panel reveal">
+          <p class="kicker kicker--light" data-en="05 — Contact">05 — تواصل</p>
+          <h2 data-en="Have a project?<br>Let's talk.">عندك مشروع؟<br>خلّينا نتكلم.</h2>
+          <p data-en="Available for work in Cairo or remotely. Send an email or message me on WhatsApp, and I'll get back to you soon.">
+            متاح للعمل في القاهرة أو عن بُعد. ابعت إيميل أو كلّمني على واتساب،
+            وهرد عليك في أقرب وقت.
+          </p>
+
+          <div class="contact-actions">
+            <a class="btn btn--light" href="mailto:mohkan93@gmail.com" dir="ltr">mohkan93@gmail.com</a>
+            <a class="btn btn--outline-light" href="tel:+201099898518" dir="ltr">01099898518</a>
+          </div>
+
+          <div class="socials" aria-label="روابط التواصل" data-en-aria="Contact links">
+            <a class="social" href="https://wa.me/201099898518" target="_blank" rel="noopener" aria-label="WA — واتساب" data-en-aria="WA — WhatsApp">WA</a>
+            <a class="social" href="cv.pdf" download aria-label="CV — تحميل السيرة الذاتية" data-en-aria="CV — Download CV">CV</a>
+            <a class="social" href="mailto:mohkan93@gmail.com" aria-label="@ — البريد الإلكتروني" data-en-aria="@ — Email">@</a>
+            <a class="social" href="tel:+201099898518" aria-label="Tel — الهاتف" data-en-aria="Tel — Phone">Tel</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>© <span id="year">2026</span> <span data-en="Mohamed Kandil — Cairo, Egypt.">محمد قنديل — القاهرة، مصر.</span></p>
+      <p class="footer-note">Full Stack .NET Developer</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
